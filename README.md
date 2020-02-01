@@ -6,7 +6,7 @@ packages you see fit. Expected completion time is 3-4 hours. This is not a limit
 rather a suggestion. Feel free to spend more time if you need it. 
 
 ## How to take assessment
-1. Fork this repository into your personal Github account.
+1. Pull this repository down locally.
 2. Train a model on the data provided in the `data` directory against 
 the target variable `value`.
     * The data is comprised of a time series of property valuations and metadata about 
@@ -27,9 +27,9 @@ the target variable `value`.
  to a large N?
  
 ## Submission Instructions
-Please email a link to your public repo to `shri@awningcre.com` and `eli@awningcre.com`.
+Please email a zip of your repo `shri@awningcre.com` and `eli@awningcre.com`.
 Send us a writeup for the follow up questions via a Google Drive link, Dropbox Paper link, 
-or a link to a Markdown file in your Github repo.
+or by letting us know where a Markdown file is located in your git repo.
 
 ## Evaluation
 Your application should be able to be setup into a virtual environment on any Linux/Unix machine.
