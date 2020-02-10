@@ -8,14 +8,16 @@ rather a suggestion. Feel free to spend more time if you need it.
 ## How to take assessment
 1. Pull this repository down locally.
 2. Train a model on the data provided in the `data` directory against 
-the target variable `value`.
-    * The data is comprised of a time series of property valuations and metadata about 
+the target variable `saleprice`.
+    * The data is comprised of a time series of property sales and metadata about
       those real estate properties.
+    * The model will be used to predict real estate property valuations based on
+      their metadata and date.
+    * `data_dictionary.xlsx` gives descriptions of the labels in `properties.csv`.
 3. Store your model's output along with the code used to train it.
-4. Provide a CLI that takes in a property and transaction file (same shapes at training data),
+4. Provide a CLI that takes in a property and transaction file (same shapes as training data),
    and returns statistics on the goodness of your model's predictions.
-   * The testing dataset is comprised of an additional 30 days of transactions from the end of the test
-   set.
+   * The testing dataset is comprised of an additional 30 days of transactions from the end of the training set.
 5. Answer the follow up questions listed below.
 
 ### Follow Up Questions
